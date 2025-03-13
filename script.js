@@ -18,6 +18,8 @@ document.getElementById("acceuil").onclick = function() {
   map.flyTo({
   center: [-1.676, 48.119], // lat/long
   zoom: 12,
+  pitch: 0,
+  bearing:0
   });
 };
 
